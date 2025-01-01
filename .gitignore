@@ -1,0 +1,5 @@
+/target
+/user-config
+/dist
+*.swp
+*.xcf
