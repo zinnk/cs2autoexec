@@ -1,0 +1,8 @@
+[build]
+command = "[ -x \"$(command -v trunk)\" ] || cargo install trunk && trunk build --release --public-url /cs2autoexec/"
+publish = "dist"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
